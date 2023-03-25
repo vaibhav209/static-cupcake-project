@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background-image: url('https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  margin-left: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #68eaea;
+}
+
+ul li a:hover {
+  color: #fbbf5e;
+}
+ul li a:active {
+  text-decoration: double;
+}
+
+.text {
+  font-size: 40px;
+  margin: 20% 10% 0px 2%;
+  width: 100%;
+  font-family: 'Courier New';
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.typing-text-one {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 2.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+.typing-text-two {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 2.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .text {
+    margin: 10% 5% 0px 5%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .text {
+    font-family: 'Courier New';
+  }
+}
