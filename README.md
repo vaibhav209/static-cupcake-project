@@ -1,37 +1,28 @@
-# static-cupcake-project
-Tried a simple static website project when I start to learn web development
+## Cupcake Website
+
+This is a simple website for a cupcake business. It includes a homepage with a navigation menu and a header section with some text animation.
 
 
-## Table of Contents
-- Installation
-- Usage
-- Contributing
-- License
+
+Technologies Used
+
+- HTML
+- CSS
 
 
-## Installation
 
-To install this project, simply clone the repository:
+## Getting Started
 
-[git clone https://github.com/<your-username>/cupcake-website.git
-]
+To view this website, simply open the index.html file in your web browser.
 
-
-## Usage
-This website can be used to showcase a cupcake business and its offerings. The different sections can be customized to fit the needs of the business.
 
 
 ## Contributing
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
+This is a personal project and contributions are not accepted at this time.
 
-- Fork the repository
-- Create a new branch (git checkout -b feature/<feature-name>)
-- Make your changes
-- Commit your changes (git commit -m "Add feature")
-- Push to the branch (git push origin feature/<feature-name>)
-- Create a new Pull Request
 
 
 ## License
+
 This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
